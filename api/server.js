@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const grammerRoutes = require('./routes/grammerRoutes');
+require('dotenv').config();
 
 const app = express();
 const port = 5000;
